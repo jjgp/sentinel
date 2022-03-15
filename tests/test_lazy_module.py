@@ -1,4 +1,4 @@
-from src.mlpytemplate.cli.utils import lazy_module
+from src.sentinel.cli.utils import lazy_module
 
 
 def test_getattr():

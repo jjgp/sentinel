@@ -17,17 +17,17 @@ extras_require = {
 }
 
 setup(
-    name="mlpytemplate",
+    name="sentinel",
     version="0.0.1",
-    url="https://github.com/jjgp/ml-pytemplate",
+    url="https://github.com/jjgp/sentinel",
     author="Jason Prasad",
     author_email="jasongprasad@gmail.com",
-    description="ML project template in Python",
+    description="Land use classification using satelite imaging ",
     install_requires=install_requires,
     extras_require=extras_require,
     packages=find_packages(),
     python_requires=">=3.10",
     entry_points={
-        "console_scripts": ["mlpytemplate = src.mlpytemplate.cli.cli:main"],
+        "console_scripts": ["sentinel = src.sentinel.cli.cli:main"],
     },
 )

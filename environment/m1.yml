@@ -1,4 +1,4 @@
-name: mlpytemplate
+name: sentinel
 channels:
   - apple
   - conda-forge
