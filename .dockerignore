@@ -1,0 +1,7 @@
+*.egg-info
+.git
+.gitignore
+.pre-commit-config.yaml
+.vscode
+__pycache__
+README.md
