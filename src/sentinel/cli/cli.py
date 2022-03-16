@@ -2,7 +2,7 @@ import os
 
 import click
 
-from .big_earth_net import big_earth_net
+from .bigearthnet import bigearthnet
 
 
 @click.group()
@@ -11,7 +11,7 @@ def main(tf_log_level):
     os.environ["TF_CPP_MIN_LOG_LEVEL"] = tf_log_level
 
 
-main.add_command(big_earth_net)
+main.add_command(bigearthnet)
 
 if __name__ == "__main__":
     main()

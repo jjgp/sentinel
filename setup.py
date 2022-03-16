@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 install_requires = [
     "click >= 8.0",
-    "numpy >= 1.22",
+    "numpy >= 1.21",
     "tensorflow >= 2.8",
 ]
 
@@ -26,7 +26,7 @@ setup(
     install_requires=install_requires,
     extras_require=extras_require,
     packages=find_packages(),
-    python_requires=">=3.10",
+    python_requires=">=3.9",
     entry_points={
         "console_scripts": ["sentinel = src.sentinel.cli.cli:main"],
     },
